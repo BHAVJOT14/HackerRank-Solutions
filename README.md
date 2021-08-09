@@ -1,2 +1,2 @@
 # HackerRank-Solutions
-A Special repository for the Solutions of the HackerRank Questions
+A repository for the Solutions of the HackerRank Questions
