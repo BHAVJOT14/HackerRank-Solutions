@@ -1,0 +1,59 @@
+#==========================
+#==========================
+#         Solution
+#==========================
+#==========================
+
+
+Given =>    
+        -> 3 urns labeled X, Y, and Z.
+            
+            > Urn X : 4 Red Balls & 3 Black Balls 
+            > Urn Y : 5 Red Balls & 4 Black Balls 
+            > Urn Z : 4 Red Balls & 4 Black Balls 
+
+
+Total Number of Balls in All 3 urns = 4 Red Balls + 3 Black Balls === 7 Balls
+                                      5 Red Balls + 4 Black Balls === 9 Balls
+                                      4 Red Balls + 4 Black Balls === 8 Balls
+
+
+Probability of Urn X giving a Red Ball == 4 // 7
+Probability of Urn Y giving a Red Ball == 5 // 9
+Probability of Urn Z giving a Red Ball == 4 // 8 == 1 // 2
+
+Probability of Urn X giving a Black Ball == 3 // 7
+Probability of Urn Y giving a Black Ball == 4 // 9
+Probability of Urn Z giving a Black Ball == 4 // 8 == 1 // 2
+
+Probability of getting 2 Red Balls and 1 Black Ball ==>
+
+            Probability(Red Red Black) + Probability(Red Black Red) + Probability(Black Red Red)
+            
+            = ( 4 // 7 ) ( 5 // 9 ) ( 1 // 2 ) + 
+              ( 4 // 7 ) ( 4 // 9 ) ( 1 // 2 ) +
+              ( 3 // 7 ) ( 5 // 9 ) ( 1 // 2 )
+            
+            = 20 // 126 + 16 // 126 + 15 // 126
+            
+            = 51 // 126
+            
+            = 17 // 42
+
+
+ ________________________________________________
+{                                                }
+{  |==========================================|  }
+{  |     ANSWER IS => OPTION 3 ( 17 / 42 )    |  }
+{  |==========================================|  }
+{                                                }
+{________________________________________________}
+
+
+
+#==========================
+#==========================
+#      Solution Ends
+#==========================
+#==========================
+
