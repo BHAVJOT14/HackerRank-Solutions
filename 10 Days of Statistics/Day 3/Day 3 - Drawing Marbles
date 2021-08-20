@@ -1,0 +1,95 @@
+#==========================
+#==========================
+#         Solution
+#==========================
+#==========================
+
+Given :- 
+
+            A Bag ->  3 Red Marbles 
+                  ->  4 Blue Marbles
+
+
+-> Simplest Way To Solve:
+    
+        After drawing the first Red marble,
+        We are left with 2 Red Marbles and 4 Blue Marbles,
+        
+        So the Probability of drawing a Second blue Marble is: 
+        
+        
+        Probability = 4 // 6
+
+        Probability = 2 // 3
+
+-> Complex Way:
+
+    => Total Cases:
+    
+            FR = First Red Marble
+
+            FB = First Blue Marble
+    
+            SR = Second Red Marble
+    
+            SB = Second Blue Marble
+
+
+    => Favourable OutComes:
+
+            Total number of OutComes: 
+            
+                = 2P7                       ---------------------------------------- # Permutation
+
+                = 7! // (7 - 2)!         
+                
+                = 7 * 6 
+               
+                = 42      
+
+
+            Number of OutComes (FR and SB): 
+                
+                = 3 * 4 
+               
+                = 12
+
+
+    => Probability:
+        
+            Probability (FR) 
+                
+                = 3 // 7
+
+            Probability (FR and SB)
+            
+                 = 12 // 42                 ---------------------------------------- # Classical Definition of 
+                                                                                      Probability
+                 = 2 // 7 
+
+            Probability (SB | FR) 
+            
+                = Probability (SB and FR) // Probability (FR)    ------------------- # Conditional Probability
+                
+                = Probability (FR and SB) // Probability (FR)
+            
+                = [ 2 // 7 ] // [ 3 // 7 ]
+
+                = 2 // 3
+
+ ________________________________________________
+{                                                }
+{  |==========================================|  }
+{  |     ANSWER IS => OPTION 4 ( 2 / 3 )      |  }
+{  |==========================================|  }
+{                                                }
+{________________________________________________}
+
+
+
+#==========================
+#==========================
+#      Solution Ends
+#==========================
+#==========================
+

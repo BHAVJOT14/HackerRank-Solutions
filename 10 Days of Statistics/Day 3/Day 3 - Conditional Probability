@@ -1,0 +1,46 @@
+#==========================
+#==========================
+#         Solution
+#==========================
+#==========================
+
+Given :- 
+
+            A Family ->  2 Children 
+                     ->  1 child is Boy
+
+
+Case 1 :- 1st child is a Boy
+          2nd child is a Boy (BB).
+
+Case 2 :- 1st child is a Boy
+          2nd child is a Girl (BG).
+
+Case 2 :- 1st child is a Girl
+          2nd child is a Boy (GB).
+
+
+So, Out of these above cases {Boy & Boy} is the Favourable Condition
+
+
+Probability = Favourable Condition // Total Condition
+
+Probability = 1 // 3
+
+
+ ________________________________________________
+{                                                }
+{  |==========================================|  }
+{  |     ANSWER IS => OPTION 1 ( 1 / 3 )      |  }
+{  |==========================================|  }
+{                                                }
+{________________________________________________}
+
+
+
+#==========================
+#==========================
+#      Solution Ends
+#==========================
+#==========================
+
