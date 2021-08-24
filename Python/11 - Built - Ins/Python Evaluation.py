@@ -1,0 +1,4 @@
+
+var = input()
+
+eval(var)
