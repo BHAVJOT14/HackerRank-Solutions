@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 
+
 void update(int *a,int *b) {
     // Complete this function
     int x = *a;
@@ -9,6 +10,8 @@ void update(int *a,int *b) {
     *a = *a + *b;
     *b = abs(x - *b);    
 }
+
+
 
 int main() {
     int a, b;
