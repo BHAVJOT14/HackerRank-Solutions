@@ -1,7 +1,6 @@
-         # 10 Days of Javascript
+<h1 align=center>10 Days of JavaScript</h1>
 
-
-<img src="https://img.shields.io/badge/Problems%20Solved-25-brightgreen.svg">
+<div align=center><img src="https://img.shields.io/badge/Problems%20Solved-25-brightgreen.svg"></div>
 
 
 |  S.No  | Day |            Challenge             |                                       Problem                                       | Difficulty | Max Score |                                                     Solution                                                      |
